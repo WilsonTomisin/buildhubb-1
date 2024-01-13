@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 20px 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    background-color: limegreen;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 7px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 18px;
+}
+.hamburger-menu{
+    display: none;
+}
+/* nav ul li:nth-child(2) , :nth-child(3){
+    padding: 0px 10px;
+} */
+nav div{
+    position: relative;
+}
+
+
+.contact-btn{
+    all: unset;
+    background-color: limegreen;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+header section{
+    margin: 0px;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section div{
+    width: 50%;
+}
+header section h1{
+    font-size:60px;
+}
+header section h1 span{
+    color: limegreen;
+}
+header section p{
+    color:rgb(57, 55, 55);
+    font-size: 20px;
+}
+.btn-wrapper{
+    display: flex;
+    width: 100%;
+    /* box-shadow: 20px 0px 10px grey; */
+}
+.order-btn{
+    all: unset;
+    background-color: limegreen;
+    padding: 17px 50px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 10px 0px 20px limegreen;
+    font-size: 20px;
+}
+.video-btn{
+    all: unset ;
+    margin-left: 30px;
+    padding: 17px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgb(179, 179, 179);
+    font-size: 20px;
+}
+.bck-grnd{
+    background-color: limegreen;
+    width: fit-content;
+    padding: 7px 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.bck-grnd img{
+    position: relative;
+    top: 12px;
+    right: 14px;
+    width: 400px;
+    height: 500px;
+}
+main{
+    padding:  20px 40px;
+}
+.main-con1{
+    text-align: center;
+}
+.main-con1 h3{
+    color: red;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+.card-container .card{
+    height: 200px;
+    width: 200px;
+    padding: 12px 20px;
+    box-shadow: 0px 0px 70px rgb(217, 217, 217);
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.card-container .card:hover{
+    cursor: pointer;
+    transform: scale(0.95) translateY(20px );
+    box-shadow: 10px 40px 140px gainsboro ;
+}
+.card div{
+    background-color: rgb(95, 244, 95);
+    padding: 7px;
+    border-radius: 50%;
+}
+.card p{
+    color: rgb(57, 55, 55) ;
+}
+.main-con2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 220px 0px;
+}
+.main-con2 div{
+    width: 50%;
+}
+.image-wrapper2{
+    background-color: limegreen;
+    position: relative;
+    height: 400px;
+    max-width: 450px;
+    border-top-right-radius: 140px;
+    border-top-left-radius: 140px;
+    
+}
+.image-wrapper2::after{
+    content: 'our best chef!';
+    display: block;
+    color: red;
+    border-radius: 10px;
+    background-color: white;
+    padding: 9px 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 220px;
+    z-index: 50;
+}
+.chef{
+    position: absolute;
+    z-index: 20;
+    top: -100px;
+    left: 0;
+}
+.review-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-section > img{
+    height: 60px;
+}
+.review-section2{
+    display: flex;
+    min-width: max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-section2 span:nth-child(1){
+    /* margin: 0px 17px; */
+    font-weight: 700;
+}
+.special-dish-card{
+    border-radius: 25px;
+    padding: 20px ;
+    box-shadow: 0px 0px 20px rgb(215, 213, 213);
+}
+.main-con3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+.main-con3 > div{
+    width: 50%;
+}
+.services-con1 h3{
+    color: red;
+    letter-spacing: 3px;
+
+}
+.services-con1 p{
+    color: rgb(57, 55, 55);
+    line-height: 22px;
+}
+.explore-btn{
+    all: unset;
+    background-color: limegreen;
+    padding: 17px 75px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+
+}
+.services-con2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+    color: limegreen;
+}
+.service-card{
+    text-align: center;
+    box-shadow: 0px 0px 370px gainsboro;
+    border-radius: 12px;
+    padding: 20px 10px;
+    transition: 0.35s all ease-in;
+}
+.service-card:hover{
+    color: white;
+    background-color: limegreen;
+}
+
+.footer-con1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 30px;
+    background-color: limegreen;
+}
+.footer-links span{
+    display: block;
+    
+}
+.footer-con2{
+    padding:50px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+
+@media screen and (max-width:400px) {
+    
+    .container-1{
+        width: 100%;
+    }
+    .container-1 h1{
+        font-size: 30px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-btns{
+        display: none;
+    }
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .card-container{
+        flex-direction: column;
+        gap: 22px;
+    }
+    .special-dish-card-container{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .image-wrapper2{
+        display: none;
+    }
+
+    .main-con3{
+        flex-direction: column;
+        gap: 60px;
+        padding: 0px ;
+    }
+    .footer-con1{
+        flex-direction: column;
+    }
+    .container-2{
+        display: none;
+    }
+    .btn-wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-wrapper .order-btn,.video-btn{
+        padding: 7px 25px;
+    }
+    .video-btn{
+        margin-left: 0px;
+    }
+    .testimonials{
+        min-width: 100%;
+    }
+    .review-section{
+        flex-direction: column;
+    }
+    .services-con1{
+        min-width: 100%;
+    }
+    .services-con2{
+        min-width: 100%;
+        grid-template-columns: auto;
+    }
+    .dish-con h1 {
+        font-size: 25px ;
+    }
+    .hanburger-menu{
+        display: block;
+    }
+}
